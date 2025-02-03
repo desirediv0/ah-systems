@@ -131,19 +131,13 @@ const Header = () => {
                     +91 99580 33614
                   </p>
                   <a
-                    href="mailto:ranjeet.sinha@ahsystems.in"
+                    href="mailto:info@ahsystems.in"
                     className="text-[#AD9052] hover:underline flex items-center gap-2"
                   >
                     <Mail size={16} />
-                    ranjeet.sinha@ahsystems.in
+                    info@ahsystems.in
                   </a>
-                  <a
-                    href="mailto:admin@ahsystems.in"
-                    className="text-[#AD9052] hover:underline flex items-center gap-2"
-                  >
-                    <Mail size={16} />
-                    admin@ahsystems.in
-                  </a>
+
                 </div>
               </div>
             </div>
@@ -232,19 +226,13 @@ const Header = () => {
                         +91 99580 33614
                       </p>
                       <a
-                        href="mailto:ranjeet.sinha@ahsystems.in"
+                        href="mailto:info@ahsystems.in"
                         className="text-[#AD9052] hover:underline flex items-center gap-2"
                       >
                         <Mail size={16} />
-                        ranjeet.sinha@ahsystems.in
+                        info@ahsystems.in
                       </a>
-                      <a
-                        href="mailto:admin@ahsystems.in"
-                        className="text-[#AD9052] hover:underline flex items-center gap-2"
-                      >
-                        <Mail size={16} />
-                        admin@ahsystems.in
-                      </a>
+
                     </div>
                   </div>
                 )}
