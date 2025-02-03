@@ -46,13 +46,13 @@ const WhyGlobal = () => {
     <div className="py-16 px-4 bg-white">
       <div className="max-w-7xl mx-auto">
         <SectionTitle
-          title="Why Ahsystems"
+          title="Why  Ah Systems"
           description="Discover the advantages that set us apart"
         />
-        
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
           {features.map((feature, index) => (
-            <div 
+            <div
               key={index}
               className="group relative p-6 bg-white rounded-lg
                          hover:shadow-xl transition-all duration-300 
@@ -63,13 +63,13 @@ const WhyGlobal = () => {
                             group-hover:text-[#AD9052]/10 transition-colors duration-300">
                 {feature.number}
               </div>
-              
+
               {/* Icon */}
               <div className="relative text-[#AD9052] mb-4 
                             transform group-hover:scale-110 transition-transform duration-300">
                 {feature.icon}
               </div>
-              
+
               {/* Content */}
               <div className="relative">
                 <h3 className="text-xl font-semibold mb-2 text-gray-800 

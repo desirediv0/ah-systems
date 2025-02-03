@@ -38,10 +38,10 @@ const Banner = ({ slides = [], interval = 2000 }) => {
                   priority={index === 0}
                 />
                 <div className="absolute inset-0 bg-black/40 flex flex-col items-center justify-center px-6 md:px-20 text-center">
-                  <h2 className="text-2xl md:text-5xl lg:text-6xl font-bold text-white mb-4 animate-fadeIn">
+                  <h2 className="text-sm md:text-xl text-white mb-4 animate-fadeIn">
                     {slide.title}
                   </h2>
-                  <p className="text-sm md:text-xl text-white/90 max-w-2xl mx-auto animate-slideUp">
+                  <p className=" text-2xl md:text-5xl lg:text-6xl font-bold text-white/90 max-w-4xl mx-auto animate-slideUp">
                     {slide.description}
                   </p>
                 </div>

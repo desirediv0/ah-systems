@@ -118,7 +118,7 @@ const Header = () => {
               <div className="p-6 space-y-4">
                 <h3 className="text-lg font-semibold text-[#AD9052] flex items-center gap-2">
                   <MapPin size={20} />
-                  Ahsystems
+                  Ah Systems
                 </h3>
                 <p className="text-gray-600 pl-7">
                   Prashant Complex, 2nd Floor,<br />
@@ -170,8 +170,8 @@ const Header = () => {
                         <ChevronDown
                           size={16}
                           className={`transform transition-transform ${(link.title === "About Us" ? aboutDropdown : serviceDropdown)
-                              ? "rotate-180"
-                              : ""
+                            ? "rotate-180"
+                            : ""
                             }`}
                         />
                       </button>
@@ -219,7 +219,7 @@ const Header = () => {
                   <div className="mt-4 space-y-4">
                     <h3 className="text-lg font-semibold text-[#AD9052] flex items-center gap-2">
                       <MapPin size={20} />
-                      Ahsystems
+                      Ah Systems
                     </h3>
                     <p className="text-gray-600 pl-7">
                       Prashant Complex, 2nd Floor,<br />

@@ -10,17 +10,17 @@ const slides = [
   {
     image: "/slider1.webp",
     title: "Global Logistics Solutions",
-    description: "Connecting businesses worldwide with reliable shipping and logistics services"
+    description: "Connecting businesses worldwide"
   },
   {
     image: "/slider2.webp",
     title: "Fast & Reliable",
-    description: "Expert handling of your cargo with speed and precision"
+    description: "Expert cargo handling services"
   },
   {
     image: "/slider3.webp",
     title: "Global Network",
-    description: "Our global network of partners ensures your cargo reaches its destination"
+    description: "Worldwide logistics network"
   }
 ];
 
@@ -28,12 +28,12 @@ const slides = [
 export default function Home() {
   return (
     <>
-  <Banner slides={slides} interval={3000} />
-  <ServiceComp />
-  <AboutComp />
-  <WhyGlobal />
-  <OurServices />
-  <ShippingPartners />
+      <Banner slides={slides} interval={3000} />
+      <ServiceComp />
+      <AboutComp />
+      <WhyGlobal />
+      <OurServices />
+      <ShippingPartners />
     </>
   );
 }
