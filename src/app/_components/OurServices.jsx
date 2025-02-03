@@ -37,7 +37,7 @@ const OurServices = () => {
     {
       title: "Warehousing",
       icon: <Building2 size={40} />,
-      image: "/card/Warehousing.jpg",
+      image: "/card/warehousing.jpg",
       description: "State-of-the-art warehousing facilities with advanced inventory management and distribution services.",
       link: "/services/warehousing"
     },
