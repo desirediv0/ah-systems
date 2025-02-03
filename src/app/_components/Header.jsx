@@ -2,11 +2,11 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
-import { 
-  Menu, 
-  X, 
-  ChevronDown, 
-  Phone, 
+import {
+  Menu,
+  X,
+  ChevronDown,
+  Phone,
   Mail,
   MapPin
 } from 'lucide-react';
@@ -32,14 +32,14 @@ const Header = () => {
       title: "Services",
       href: "#",
       dropdown: [
-        {title: "Ocean Freight",  href: "/ocean-freight" },
-        {title: "Air Freight",  href: "/air-freight" }, 
-        {title: "Ground Transport",  href: "/ground-transport" },
-        {title :"Project Logistics", href: "/project-logistics" },
-        {title: "Wharehousing", href: "/wharehousing" },
-        {title: "Customs Brokerage", href: "/customs-brokerage" },
-        {title:"Creating & Packaging", href: "/creating-packaging" },
-        {title: "Value Added Services", href: "/value-added-services" },
+        { title: "Ocean Freight", href: "/ocean-freight" },
+        { title: "Air Freight", href: "/air-freight" },
+        { title: "Ground Transport", href: "/ground-transport" },
+        { title: "Project Logistics", href: "/project-logistics" },
+        { title: "Wharehousing", href: "/wharehousing" },
+        { title: "Customs Brokerage", href: "/customs-brokerage" },
+        { title: "Creating & Packaging", href: "/creating-packaging" },
+        { title: "Value Added Services", href: "/value-added-services" },
       ],
     },
     { title: "Contact", href: "/contact" },
@@ -51,18 +51,18 @@ const Header = () => {
         <div className="flex items-center justify-between h-24">
           {/* Logo */}
           <Link href="/">
-            <Image 
-              src="/Logo.png" 
-              alt="logo" 
-              width={130} 
-              height={130} 
-              className="cursor-pointer hover:opacity-90 transition-opacity" 
+            <Image
+              src="/Logo.png"
+              alt="logo"
+              width={130}
+              height={130}
+              className="cursor-pointer hover:opacity-90 transition-opacity"
             />
           </Link>
 
           {/* Mobile Menu Button */}
-          <button 
-            onClick={() => setIsOpen(!isOpen)} 
+          <button
+            onClick={() => setIsOpen(!isOpen)}
             className="md:hidden text-gray-600 hover:text-[#AD9052] transition-colors"
           >
             {isOpen ? <X size={24} /> : <Menu size={24} />}
@@ -72,26 +72,26 @@ const Header = () => {
           <nav className="hidden md:flex items-center space-x-8">
             {navLinks.map((link, index) => (
               <div key={index} className="relative group">
-              {link.dropdown ? (
-                <>
+                {link.dropdown ? (
+                  <>
                     <button className="flex items-center space-x-1 text-gray-800 hover:text-[#AD9052] transition-colors font-semibold peer">
-                    <span>{link.title}</span>
-                    <ChevronDown size={16} />
+                      <span>{link.title}</span>
+                      <ChevronDown size={16} />
                     </button>
                     <div className="absolute left-0 mt-2 w-52 bg-white rounded-lg shadow-lg invisible opacity-0 group-hover:visible group-hover:opacity-100 hover:visible hover:opacity-100 transition-all duration-300 ease-in-out">
-                    {link.dropdown.map((item, idx) => (
-                        <Link 
-                        key={idx}
-                        href={item.href}
-                        className="block px-4 py-2 text-gray-800 hover:bg-gray-50 hover:text-[#AD9052] transition-colors"
+                      {link.dropdown.map((item, idx) => (
+                        <Link
+                          key={idx}
+                          href={item.href}
+                          className="block px-4 py-2 text-gray-800 hover:bg-gray-50 hover:text-[#AD9052] transition-colors"
                         >
-                        {item.title}
+                          {item.title}
                         </Link>
-                    ))}
+                      ))}
                     </div>
-                </>
-                ): (
-                  <Link 
+                  </>
+                ) : (
+                  <Link
                     href={link.href}
                     className="text-gray-800 hover:text-[#AD9052] transition-colors font-semibold"
                   >
@@ -105,48 +105,44 @@ const Header = () => {
           {/* Flags with Contact Info */}
           <div className="relative group hidden md:block">
             <div className="flex items-center space-x-4 cursor-pointer">
-              <Image 
-                src="/india.png" 
-                alt="India" 
-                width={30} 
-                height={30} 
-                className="transition-transform hover:scale-110" 
+              <Image
+                src="/india.png"
+                alt="India"
+                width={30}
+                height={30}
+                className="transition-transform hover:scale-110"
               />
-              
+
             </div>
             <div className="absolute right-0 mt-2 w-80 bg-white rounded-lg shadow-lg invisible opacity-0 group-hover:visible group-hover:opacity-100 hover:visible hover:opacity-100 transition-all duration-300 ease-in-out">
-                            <div className="p-6 space-y-4">
+              <div className="p-6 space-y-4">
                 <h3 className="text-lg font-semibold text-[#AD9052] flex items-center gap-2">
                   <MapPin size={20} />
                   Ahsystems
                 </h3>
                 <p className="text-gray-600 pl-7">
-                  Business Tower, 5th Floor,<br />
-                  Block A, Cyber City,<br />
-                  Gurgaon 122002, India
+                  Prashant Complex, 2nd Floor,<br />
+                  D Block, Dwarka,<br />
+                  Sector 8, New Delhi 110077, India
                 </p>
                 <div className="space-y-2">
                   <p className="text-gray-600 flex items-center gap-2">
                     <Phone size={16} />
-                    0124 4856 7890
+                    +91 99580 33614
                   </p>
-                  <p className="text-gray-600 flex items-center gap-2">
-                    <Phone size={16} />
-                    0124 4856 7891
-                  </p>
-                  <a 
-                    href="mailto:info@ahsystems.com" 
+                  <a
+                    href="mailto:ranjeet.sinha@ahsystems.in"
                     className="text-[#AD9052] hover:underline flex items-center gap-2"
                   >
                     <Mail size={16} />
-                    info@ahsystems.com
+                    ranjeet.sinha@ahsystems.in
                   </a>
-                  <a 
-                    href="mailto:contact@ahsystems.com" 
+                  <a
+                    href="mailto:admin@ahsystems.in"
                     className="text-[#AD9052] hover:underline flex items-center gap-2"
                   >
                     <Mail size={16} />
-                    contact@ahsystems.com
+                    admin@ahsystems.in
                   </a>
                 </div>
               </div>
@@ -162,38 +158,37 @@ const Header = () => {
                 <div key={index}>
                   {link.dropdown ? (
                     <>
-                      <button 
-                        onClick={() => 
-                          link.title === "About Us" 
+                      <button
+                        onClick={() =>
+                          link.title === "About Us"
                             ? setAboutDropdown(!aboutDropdown)
                             : setServiceDropdown(!serviceDropdown)
                         }
                         className="w-full flex justify-between items-center px-3 py-2 text-gray-800 hover:text-[#AD9052]"
                       >
                         <span>{link.title}</span>
-                        <ChevronDown 
-                          size={16} 
-                          className={`transform transition-transform ${
-                            (link.title === "About Us" ? aboutDropdown : serviceDropdown) 
-                              ? "rotate-180" 
+                        <ChevronDown
+                          size={16}
+                          className={`transform transition-transform ${(link.title === "About Us" ? aboutDropdown : serviceDropdown)
+                              ? "rotate-180"
                               : ""
-                          }`}
+                            }`}
                         />
                       </button>
                       {((link.title === "About Us" && aboutDropdown) ||
                         (link.title === "Services" && serviceDropdown)) && (
-                        <div className="pl-6 space-y-1">
-                          {link.dropdown.map((item, idx) => (
-                            <Link
-                              key={idx}
-                              href={item.href}
-                              className="block px-3 py-2 text-gray-800 hover:text-[#AD9052]"
-                            >
-                              {item.title}
-                            </Link>
-                          ))}
-                        </div>
-                      )}
+                          <div className="pl-6 space-y-1">
+                            {link.dropdown.map((item, idx) => (
+                              <Link
+                                key={idx}
+                                href={item.href}
+                                className="block px-3 py-2 text-gray-800 hover:text-[#AD9052]"
+                              >
+                                {item.title}
+                              </Link>
+                            ))}
+                          </div>
+                        )}
                     </>
                   ) : (
                     <Link
@@ -208,51 +203,47 @@ const Header = () => {
 
               {/* Mobile Contact Info */}
               <div className="border-t border-gray-200 mt-4 pt-4 px-3">
-                <div  onClick={() => setFlagDropdown(!flagDropdown)} className="flex items-center justify-between cursor-pointer">
-                  <div  className="flex items-center space-x-4">
+                <div onClick={() => setFlagDropdown(!flagDropdown)} className="flex items-center justify-between cursor-pointer">
+                  <div className="flex items-center space-x-4">
                     <Image src="/india.png" alt="India" width={30} height={30} />
-                    
+
                   </div>
-                  <ChevronDown 
-                    size={16} 
+                  <ChevronDown
+                    size={16}
                     className={`transform transition-transform ${flagDropdown ? "rotate-180" : ""}`}
-                   
+
                   />
                 </div>
-                
+
                 {flagDropdown && (
-                                  <div className="mt-4 space-y-4">
+                  <div className="mt-4 space-y-4">
                     <h3 className="text-lg font-semibold text-[#AD9052] flex items-center gap-2">
                       <MapPin size={20} />
                       Ahsystems
                     </h3>
                     <p className="text-gray-600 pl-7">
-                      Business Tower, 5th Floor,<br />
-                      Block A, Cyber City,<br />
-                      Gurgaon 122002, India
+                      Prashant Complex, 2nd Floor,<br />
+                      D Block, Dwarka,<br />
+                      Sector 8, New Delhi 110077, India
                     </p>
                     <div className="space-y-2">
                       <p className="text-gray-600 flex items-center gap-2">
                         <Phone size={16} />
-                        0124 4856 7890
+                        +91 99580 33614
                       </p>
-                      <p className="text-gray-600 flex items-center gap-2">
-                        <Phone size={16} />
-                        0124 4856 7891
-                      </p>
-                      <a 
-                        href="mailto:info@ahsystems.com" 
+                      <a
+                        href="mailto:ranjeet.sinha@ahsystems.in"
                         className="text-[#AD9052] hover:underline flex items-center gap-2"
                       >
                         <Mail size={16} />
-                        info@ahsystems.com
+                        ranjeet.sinha@ahsystems.in
                       </a>
-                      <a 
-                        href="mailto:contact@ahsystems.com" 
+                      <a
+                        href="mailto:admin@ahsystems.in"
                         className="text-[#AD9052] hover:underline flex items-center gap-2"
                       >
                         <Mail size={16} />
-                        contact@ahsystems.com
+                        admin@ahsystems.in
                       </a>
                     </div>
                   </div>
