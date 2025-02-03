@@ -8,17 +8,17 @@ import WhyGlobal from "./_components/Why-FPS-Global";
 
 const slides = [
   {
-    image: "/slider1.webp",
+    image: "/card/ocean-freight.jpg",
     title: "Global Logistics Solutions",
     description: "Connecting businesses worldwide"
   },
   {
-    image: "/slider2.webp",
+    image: "/card/air-freight.jpg",
     title: "Fast & Reliable",
     description: "Expert cargo handling services"
   },
   {
-    image: "/slider3.webp",
+    image: "/card/ground-transportation.jpg",
     title: "Global Network",
     description: "Worldwide logistics network"
   }
