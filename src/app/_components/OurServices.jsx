@@ -9,42 +9,42 @@ const OurServices = () => {
     {
       title: "Ocean Freight",
       icon: <Ship size={40} />,
-      image: "/card.webp",
+      image: "/card/ocean-freight.jpg",
       description: "At  Ah Systems Group, we provide comprehensive ocean freight solutions for your international shipping needs.",
       link: "/services/ocean-freight"
     },
     {
       title: "Air Freight",
       icon: <Plane size={40} />,
-      image: "/card.webp",
+      image: "/card/air-freight.jpg",
       description: "Efficient air freight services ensuring fast and reliable delivery worldwide with real-time tracking.",
       link: "/services/air-freight"
     },
     {
       title: "Ground Transportation",
       icon: <Truck size={40} />,
-      image: "/card.webp",
+      image: "/card/ground-transportation.jpg",
       description: "Complete ground transportation solutions with nationwide coverage and dedicated fleet services.",
       link: "/services/ground-transport"
     },
     {
       title: "Project Logistics",
       icon: <Package size={40} />,
-      image: "/card.webp",
+      image: "/card/project-logistics.jpg",
       description: "Specialized project cargo handling and logistics management for complex transportation requirements.",
       link: "/services/project-logistics"
     },
     {
       title: "Warehousing",
       icon: <Building2 size={40} />,
-      image: "/card.webp",
+      image: "/card/Warehousing.jpg",
       description: "State-of-the-art warehousing facilities with advanced inventory management and distribution services.",
       link: "/services/warehousing"
     },
     {
       title: "Customs Brokerage",
       icon: <FileCheck size={40} />,
-      image: "/card.webp",
+      image: "/card/customs-brokerage.jpg",
       description: "Professional customs clearance services ensuring smooth and compliant international trade operations.",
       link: "/services/customs-brokerage"
     }
