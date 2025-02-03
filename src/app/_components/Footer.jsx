@@ -66,12 +66,6 @@ const Footer = () => {
                     ranjeet.sinha@ahsystems.in
                   </a>
                 </p>
-                <p className="flex items-center gap-2">
-                  <Mail size={20} className="text-[#AD9052]" />
-                  <a href="mailto:admin@ahsystems.in" className="hover:text-[#AD9052] transition-colors">
-                    admin@ahsystems.in
-                  </a>
-                </p>
               </div>
             </div>
           </div>
