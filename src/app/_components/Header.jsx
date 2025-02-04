@@ -131,11 +131,11 @@ const Header = () => {
                     +91 99580 33614
                   </p>
                   <a
-                    href="mailto:info@ahsystems.in"
+                    href="mailto:info@ahsystemss.com"
                     className="text-[#AD9052] hover:underline flex items-center gap-2"
                   >
                     <Mail size={16} />
-                    info@ahsystems.in
+                    info@ahsystemss.com
                   </a>
 
                 </div>
@@ -226,11 +226,11 @@ const Header = () => {
                         +91 99580 33614
                       </p>
                       <a
-                        href="mailto:info@ahsystems.in"
+                        href="mailto:info@ahsystemss.com"
                         className="text-[#AD9052] hover:underline flex items-center gap-2"
                       >
                         <Mail size={16} />
-                        info@ahsystems.in
+                        info@ahsystemss.com
                       </a>
 
                     </div>
