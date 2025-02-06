@@ -8,7 +8,7 @@ const AboutComp = ({
   description = "We are dedicated to providing comprehensive logistics solutions that drive business success across global markets. With over decades of experience, our expertise spans international shipping, warehousing, supply chain optimization, and customs clearance services. We understand that each business has unique requirements, which is why we offer tailored solutions that adapt to your specific needs.\n\nOur state-of-the-art facilities and experienced team ensure seamless handling of your cargo, whether it's air freight, ocean freight, or ground transportation. We pride ourselves on maintaining the highest standards of efficiency, reliability, and security throughout the entire logistics process. Partner with us to experience logistics excellence that goes beyond conventional boundaries and helps your business thrive in today's competitive market.",
   image = "/about-image.webp",
   buttonText = "Learn More",
-  buttonLink = "/about/company",
+  buttonLink = "/about",
   flip = false
 }) => {
   return (

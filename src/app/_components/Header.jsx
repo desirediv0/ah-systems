@@ -17,6 +17,10 @@ const Header = () => {
   const [serviceDropdown, setServiceDropdown] = useState(false);
   const [flagDropdown, setFlagDropdown] = useState(false);
 
+  const handleClick = (e) => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
   const navLinks = [
     { title: "Home", href: "/" },
     {
@@ -32,14 +36,14 @@ const Header = () => {
       title: "Services",
       href: "#",
       dropdown: [
-        { title: "Ocean Freight", href: "/ocean-freight" },
-        { title: "Air Freight", href: "/air-freight" },
-        { title: "Ground Transport", href: "/ground-transport" },
-        { title: "Project Logistics", href: "/project-logistics" },
-        { title: "Wharehousing", href: "/wharehousing" },
-        { title: "Customs Brokerage", href: "/customs-brokerage" },
-        { title: "Creating & Packaging", href: "/creating-packaging" },
-        { title: "Value Added Services", href: "/value-added-services" },
+        { title: "Ocean Freight", href: "/services#ocean-freight" },
+        { title: "Air Freight", href: "/services#air-freight" },
+        { title: "Ground Transport", href: "/services#ground-transport" },
+        { title: "Project Logistics", href: "/services#project-logistics" },
+        { title: "Wharehousing", href: "/services#wharehousing" },
+        { title: "Customs Brokerage", href: "/services#customs-brokerage" },
+        { title: "Creating & Packaging", href: "/services#creating-packaging" },
+        { title: "Value Added Services", href: "/services#value-added-services" },
       ],
     },
     { title: "Contact", href: "/contact" },
@@ -83,6 +87,7 @@ const Header = () => {
                         <Link
                           key={idx}
                           href={item.href}
+                          onClick={handleClick}
                           className="block px-4 py-2 text-gray-800 hover:bg-gray-50 hover:text-[#AD9052] transition-colors"
                         >
                           {item.title}
@@ -176,6 +181,7 @@ const Header = () => {
                               <Link
                                 key={idx}
                                 href={item.href}
+                                onClick={handleClick}
                                 className="block px-3 py-2 text-gray-800 hover:text-[#AD9052]"
                               >
                                 {item.title}
