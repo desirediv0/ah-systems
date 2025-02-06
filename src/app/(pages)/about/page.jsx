@@ -7,12 +7,12 @@ import Industries from './_components/industries'
 
 const AboutPage = () => {
     useEffect(() => {
-        // Get the hash from the URL
         const hash = window.location.hash;
         if (hash) {
-            // Wait for page to load
+            // Remove special characters from hash
+            const cleanHash = hash.replace(/[^a-zA-Z0-9-]/g, '');
             setTimeout(() => {
-                const element = document.querySelector(hash);
+                const element = document.getElementById(cleanHash.substring(1));
                 if (element) {
                     element.scrollIntoView({ behavior: 'smooth' });
                 }

@@ -2,6 +2,7 @@
 import React from 'react';
 import { FaCartPlus, FaMobile, FaMicrochip, FaShoppingBag, FaTshirt, FaBook } from 'react-icons/fa';
 import Marquee from 'react-fast-marquee';
+import Link from 'next/link';
 
 const Industries = () => {
     const industries = [
@@ -89,11 +90,13 @@ const Industries = () => {
                         <p className="text-lg text-gray-600 mb-8">
                             Don't see your industry? Contact us to learn how we can help your business.
                         </p>
-                        <button className="px-8 py-3 bg-[#AD9052] text-white rounded-md
+                        <Link
+                            href={"/contact"}
+                            className="px-8 py-3 bg-[#AD9052] text-white rounded-md
                                          hover:bg-[#8E7544] transition-colors duration-300
                                          shadow-lg hover:shadow-xl">
                             Contact Us
-                        </button>
+                        </Link>
                     </div>
                 </div>
             </div>

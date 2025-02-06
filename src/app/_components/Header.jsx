@@ -24,7 +24,7 @@ const Header = () => {
       href: "#",
       dropdown: [
         { title: "Company", href: "/about#company" },
-        { title: "Vision Mission & Values", href: "/about#vision-mission-&-values" },
+        { title: "Vision Mission & Values", href: "/about#vision-mission-values" },
         { title: "Industries Served", href: "/about#industries" },
       ],
     },

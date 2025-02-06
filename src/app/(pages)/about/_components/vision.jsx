@@ -27,7 +27,7 @@ const Vision = () => {
     ]
 
     return (
-        <div id='vision-mission-&-values' className="min-h-screen bg-gradient-to-b from-white to-gray-50">
+        <div id="vision-mission-values" className="min-h-screen bg-gradient-to-b from-white to-gray-50">
             {/* Decorative Pattern */}
             <div className="absolute inset-0 bg-grid-gray-100/50 bg-[size:20px_20px] pointer-events-none" />
 
@@ -44,7 +44,7 @@ const Vision = () => {
                         <div className="relative group">
                             <div className="aspect-[4/3] relative rounded-2xl overflow-hidden shadow-2xl">
                                 <Image
-                                    src="/vision-image.webp"
+                                    src="/slider1.webp"
                                     alt="Our Vision"
                                     fill
                                     className="object-cover group-hover:scale-110 transition-transform duration-700"
