@@ -1,10 +1,11 @@
 "use client";
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, Suspense } from 'react';
 import Image from 'next/image';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { ChevronRight, Menu } from 'lucide-react';
+import Loading from './loading';
 
-const Service = () => {
+const ServiceContent = () => {
     const [activeSection, setActiveSection] = useState('');
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
     const router = useRouter();
@@ -221,6 +222,15 @@ const Service = () => {
                 </div>
             </div>
         </div>
+    );
+};
+
+
+const Service = () => {
+    return (
+        <Suspense fallback={<Loading />}>
+            <ServiceContent />
+        </Suspense>
     );
 };
 
