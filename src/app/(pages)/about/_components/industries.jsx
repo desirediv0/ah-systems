@@ -56,33 +56,59 @@ const Industries = () => {
                     </div>
 
                     {/* Marquee Section */}
-                    <div className="mt-12 overflow-hidden">
-                        <Marquee
-                            gradient={true}
-                            gradientColor={[249, 250, 251]}
-                            gradientWidth={100}
-                            speed={40}
-                            pauseOnHover={true}
-                        >
-                            <div className="flex gap-8">
+                    <div className="mt-4 md:mt-8 overflow-hidden px-4">
+                        {/* Mobile View */}
+                        <div className="block md:hidden">
+                            <div className="flex flex-col gap-4">
                                 {industries.map((industry, index) => (
                                     <div key={index}
-                                        className="min-w-[300px] p-8 bg-white rounded-xl shadow-lg 
-                                                 border border-gray-100 mx-4 hover:border-[#AD9052]/20 
-                                                 hover:shadow-xl transition-all duration-300">
-                                        <div className="mb-6 transform hover:scale-110 transition-transform duration-300">
-                                            {industry.icon}
+                                        className="w-full p-4 bg-white rounded-lg border border-gray-100 
+                                                 hover:border-[#AD9052]/20 hover:shadow-md transition-all duration-300">
+                                        <div className="mb-3 flex items-center gap-3">
+                                            <div className="w-10 h-10">
+                                                {industry.icon}
+                                            </div>
+                                            <h3 className="text-lg font-semibold text-gray-900">
+                                                {industry.title}
+                                            </h3>
                                         </div>
-                                        <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                                            {industry.title}
-                                        </h3>
-                                        <p className="text-gray-600 leading-relaxed">
+                                        <p className="text-sm text-gray-600">
                                             {industry.description}
                                         </p>
                                     </div>
                                 ))}
                             </div>
-                        </Marquee>
+                        </div>
+
+                        {/* Desktop View with Marquee */}
+                        <div className="hidden md:block">
+                            <Marquee
+                                gradient={true}
+                                gradientColor={[249, 250, 251]}
+                                gradientWidth={50}
+                                speed={40}
+                                pauseOnHover={true}
+                            >
+                                <div className="flex gap-8">
+                                    {industries.map((industry, index) => (
+                                        <div key={index}
+                                            className="min-w-[300px] p-6 bg-white rounded-xl 
+                                                     border border-gray-100 mx-4 hover:border-[#AD9052]/20 
+                                                     hover:shadow-xl transition-all duration-300">
+                                            <div className="mb-4 transform hover:scale-105 transition-transform duration-300">
+                                                {industry.icon}
+                                            </div>
+                                            <h3 className="text-xl font-semibold text-gray-900 mb-3">
+                                                {industry.title}
+                                            </h3>
+                                            <p className="text-base text-gray-600 leading-relaxed">
+                                                {industry.description}
+                                            </p>
+                                        </div>
+                                    ))}
+                                </div>
+                            </Marquee>
+                        </div>
                     </div>
 
                     {/* Bottom CTA */}
