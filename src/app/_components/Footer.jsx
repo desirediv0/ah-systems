@@ -38,7 +38,7 @@ const Footer = () => {
             <Image
               src="/Logo.png"
               alt="Logo"
-              width={150}
+              width={100}
               height={60}
               className="mb-6 hover:opacity-90 transition-opacity"
             />

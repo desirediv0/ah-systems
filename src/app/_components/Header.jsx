@@ -58,8 +58,8 @@ const Header = () => {
             <Image
               src="/Logo.png"
               alt="logo"
-              width={130}
-              height={130}
+              width={90}
+              height={90}
               className="cursor-pointer hover:opacity-90 transition-opacity"
             />
           </Link>
