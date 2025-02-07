@@ -1,3 +1,4 @@
+"use client"
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -11,46 +12,48 @@ const OurServices = () => {
       icon: <Ship size={40} />,
       image: "/card/ocean-freight.jpg",
       description: "At  Ah Systems Group, we provide comprehensive ocean freight solutions for your international shipping needs.",
-      link: "/services/ocean-freight"
+      link: "/services#ocean-freight"
     },
     {
       title: "Air Freight",
       icon: <Plane size={40} />,
       image: "/card/air-freight.jpg",
       description: "Efficient air freight services ensuring fast and reliable delivery worldwide with real-time tracking.",
-      link: "/services/air-freight"
+      link: "/services#air-freight"
     },
     {
       title: "Ground Transportation",
       icon: <Truck size={40} />,
       image: "/card/ground-transportation.jpg",
       description: "Complete ground transportation solutions with nationwide coverage and dedicated fleet services.",
-      link: "/services/ground-transport"
+      link: "/services#ground-transport"
     },
     {
       title: "Project Logistics",
       icon: <Package size={40} />,
       image: "/card/project-logistics.jpg",
       description: "Specialized project cargo handling and logistics management for complex transportation requirements.",
-      link: "/services/project-logistics"
+      link: "/services#project-logistics"
     },
     {
       title: "Warehousing",
       icon: <Building2 size={40} />,
       image: "/card/warehousing.jpg",
       description: "State-of-the-art warehousing facilities with advanced inventory management and distribution services.",
-      link: "/services/warehousing"
+      link: "/services#warehousing"
     },
     {
       title: "Customs Brokerage",
       icon: <FileCheck size={40} />,
       image: "/card/customs-brokerage.jpg",
       description: "Professional customs clearance services ensuring smooth and compliant international trade operations.",
-      link: "/services/customs-brokerage"
+      link: "/services#customs-brokerage"
     }
   ];
 
-
+  const handleClick = (e) => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
 
   return (
     <div className="py-16 px-4 bg-white">
@@ -90,6 +93,7 @@ const OurServices = () => {
                 <p className="text-white/90 text-sm mb-6">{service.description}</p>
                 <Link
                   href={service.link}
+                  onClick={handleClick}
                   className="inline-flex items-center text-[#AD9052] hover:text-white transition-colors duration-300 text-sm font-semibold group/btn"
                 >
                   Read More
