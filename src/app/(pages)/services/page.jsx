@@ -79,8 +79,8 @@ const ServiceContent = () => {
             ],
         },
         {
-            id: 'crating-packaging',
-            title: 'Crating & Packaging',
+            id: 'creating-packaging',
+            title: 'Creating & Packaging',
             image: '/card/creating-packaging.jpg',
             description: 'Protecting your cargo during transit is essential, and our professional crating and packaging services ensure maximum safety for international shipping, freight forwarding, and logistics solutions. Whether you are shipping fragile items, heavy machinery, or high-value goods, our custom packaging and crating solutions provide superior protection for your cargo at every stage of the shipping process.',
             features: [

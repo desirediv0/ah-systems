@@ -40,7 +40,7 @@ const Header = () => {
         { title: "Air Freight", href: "/services#air-freight" },
         { title: "Ground Transport", href: "/services#ground-transport" },
         { title: "Project Logistics", href: "/services#project-logistics" },
-        { title: "Wharehousing", href: "/services#wharehousing" },
+        { title: "Wharehousing", href: "/services#warehousing" },
         { title: "Customs Brokerage", href: "/services#customs-brokerage" },
         { title: "Creating & Packaging", href: "/services#creating-packaging" },
         { title: "Value Added Services", href: "/services#value-added-services" },
