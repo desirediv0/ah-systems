@@ -16,7 +16,7 @@ const ServiceContent = () => {
             id: 'ocean-freight',
             title: 'Ocean Freight',
             image: '/card/ocean-freight.jpg',
-            description: 'At Ah Systems, we take pride in offering dependable ocean freight services that connect businesses to the world. Our efficient routings and flexible fixed-day sailings ensure your cargo is transported quickly and reliably to its destination, no matter where in the world. With years of experience, we ensure that your shipment is handled professionally every step of the way, making global trade more accessible and efficient.',
+            description: 'At Air Harbour, we take pride in offering dependable ocean freight services that connect businesses to the world. Our efficient routings and flexible fixed-day sailings ensure your cargo is transported quickly and reliably to its destination, no matter where in the world. With years of experience, we ensure that your shipment is handled professionally every step of the way, making global trade more accessible and efficient.',
             features: [
                 'FCL (Full Container Load) Cargo: We provide secure and reliable FCL services using dedicated containers to protect your cargo throughout its journey. Full control over your shipment ensures minimal risk and optimal protection.',
                 'LCL (Less than Container Load) Cargo: Our cost-effective LCL services allow you to ship smaller loads efficiently by consolidating them with other shipments. This service is ideal for smaller businesses looking to save costs while still maintaining reliability.',
@@ -27,7 +27,7 @@ const ServiceContent = () => {
             id: 'air-freight',
             title: 'Air Freight',
             image: '/card/air-freight.jpg',
-            description: 'At Ah Systems, we recognize the vital role air freight plays in modern supply chains. With businesses expanding globally, the need for fast and reliable shipping has never been higher. Air freight offers a fast and secure method for transporting goods internationally, reducing transit time and ensuring your shipments meet tight deadlines.',
+            description: 'At Air Harbour, we recognize the vital role air freight plays in modern supply chains. With businesses expanding globally, the need for fast and reliable shipping has never been higher. Air freight offers a fast and secure method for transporting goods internationally, reducing transit time and ensuring your shipments meet tight deadlines.',
             features: [
                 'Express Shipping Solutions: Fast-track your shipments with optimized routes and strategic planning to ensure the quickest delivery while maintaining security and cost-efficiency.',
                 'Dedicated Cargo Charters: Need an exclusive flight for urgent shipments? We offer flexible scheduling and custom routes for any cargo type, ensuring that critical deliveries arrive on time.',
@@ -49,7 +49,7 @@ const ServiceContent = () => {
             id: 'project-logistics',
             title: 'Project Logistics',
             image: '/card/project-logistics.jpg',
-            description: 'At Ah Systems, we understand the critical role that Project Logistics plays in the success of any large-scale project. Our services are designed to handle the complexities of transporting oversized, overweight, and specialized cargo. Whether you’re managing a construction project, modular assembly, or other complex logistics needs, we provide customized solutions tailored to your specific requirements. Our goal is to ensure that your project runs smoothly, meets deadlines, and stays within budget.',
+            description: 'At Air Harbour, we understand the critical role that Project Logistics plays in the success of any large-scale project. Our services are designed to handle the complexities of transporting oversized, overweight, and specialized cargo. Whether you’re managing a construction project, modular assembly, or other complex logistics needs, we provide customized solutions tailored to your specific requirements. Our goal is to ensure that your project runs smoothly, meets deadlines, and stays within budget.',
             features: [
                 'Customized solutions tailored to your specific requirements, ensuring that your project’s logistics challenges are met with precision and efficiency.',
                 'Ensure that your project runs smoothly, from transport coordination to delivery, ensuring the safe arrival of your goods to project sites.',
@@ -60,7 +60,7 @@ const ServiceContent = () => {
             id: 'warehousing',
             title: 'Warehousing',
             image: '/card/warehousing.jpg',
-            description: 'At Ah Systems, we recognize the essential role that efficient warehousing plays in optimizing your supply chain. Our comprehensive warehousing services are tailored to meet your specific storage and logistics needs, ensuring the secure and seamless handling of your goods. Whether short-term or long-term, our facilities are equipped to meet the dynamic demands of modern businesses.',
+            description: 'At Air Harbour, we recognize the essential role that efficient warehousing plays in optimizing your supply chain. Our comprehensive warehousing services are tailored to meet your specific storage and logistics needs, ensuring the secure and seamless handling of your goods. Whether short-term or long-term, our facilities are equipped to meet the dynamic demands of modern businesses.',
             features: [
                 'Advanced warehousing facilities in key global trade hubs ensure your goods are stored in secure, state-of-the-art locations for efficient handling and management.',
                 'Real-time inventory visibility and management, providing you with accurate and up-to-date information on your stock for better decision-making and planning.',
@@ -71,7 +71,7 @@ const ServiceContent = () => {
             id: 'customs-brokerage',
             title: 'Customs Brokerage',
             image: '/card/customs-brokerage.jpg',
-            description: 'At Ah Systems, our Customs Brokerage Division is dedicated to providing seamless and efficient customs clearance services for businesses engaged in international trade. We ensure compliance with all necessary regulations and manage the clearance process to eliminate the complexities of direct interactions with customs authorities, allowing you to focus on your core business.',
+            description: 'At Air Harbour, our Customs Brokerage Division is dedicated to providing seamless and efficient customs clearance services for businesses engaged in international trade. We ensure compliance with all necessary regulations and manage the clearance process to eliminate the complexities of direct interactions with customs authorities, allowing you to focus on your core business.',
             features: [
                 'Simplifying customs clearance complexities, ensuring that your shipments comply with the latest regulations and avoiding costly delays.',
                 'Expert compliance with regulatory requirements, minimizing the risks of fines or shipment rejections during customs inspections.',

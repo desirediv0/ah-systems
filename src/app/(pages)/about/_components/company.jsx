@@ -25,7 +25,7 @@ const CompanyPage = () => {
                                 <div className="aspect-[4/3] relative rounded-2xl overflow-hidden shadow-2xl">
                                     <Image
                                         src="/about-image.webp"
-                                        alt="About AH Systems"
+                                        alt="About Air Harbour"
                                         fill
                                         className="object-cover group-hover:scale-110 transition-transform duration-700"
                                         priority
@@ -52,7 +52,7 @@ const CompanyPage = () => {
 
                             <div className="space-y-6 text-gray-600">
                                 <p className="text-lg leading-relaxed">
-                                    At Ah systems, we are a global shipping company committed to delivering complete logistics solutions
+                                    At Air Harbour, we are a global shipping company committed to delivering complete logistics solutions
                                     tailored to our clients' unique needs. Our journey began as an express logistics provider, offering
                                     fast and dependable shipping services worldwide. Over time, we have grown and evolved into a
                                     full-service supply chain logistics company, expanding our services to cover a wide range of
@@ -70,7 +70,7 @@ const CompanyPage = () => {
 
                                 <p className="text-lg leading-relaxed">
                                     Our dedicated team of logistics professionals is focused on providing reliable, cost-effective,
-                                    and efficient solutions to help businesses thrive. At Ah systems, we take pride in simplifying
+                                    and efficient solutions to help businesses thrive. At Air Harbour, we take pride in simplifying
                                     global trade, ensuring timely deliveries, and offering exceptional customer service to build
                                     lasting partnerships with our valued client.
                                 </p>

@@ -136,7 +136,7 @@ const Footer = () => {
       <div className="border-t border-gray-800">
         <div className="max-w-7xl mx-auto px-4 py-6">
           <p className="text-center text-sm">
-            © {currentYear} <span className="text-[#AD9052]">AH Systems</span>. All rights reserved.
+            © {currentYear} <span className="text-[#AD9052]">Air Harbour</span>. All rights reserved.
           </p>
         </div>
       </div>
