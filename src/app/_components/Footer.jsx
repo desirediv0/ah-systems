@@ -60,8 +60,8 @@ const Footer = () => {
               <div className="space-y-2">
                 <p className="flex items-center gap-2">
                   <Mail size={20} className="text-[#AD9052]" />
-                  <a href="mailto:info@ahsystemss.com" className="hover:text-[#AD9052] transition-colors">
-                    info@ahsystemss.com
+                  <a href="mailto:info@airharbours.com" className="hover:text-[#AD9052] transition-colors">
+                    info@airharbours.com
                   </a>
                 </p>
               </div>
@@ -136,7 +136,7 @@ const Footer = () => {
       <div className="border-t border-gray-800">
         <div className="max-w-7xl mx-auto px-4 py-6">
           <p className="text-center text-sm">
-            © {currentYear} <span className="text-[#AD9052]">Air Harbour</span>. All rights reserved.
+            © {currentYear} <span className="text-[#AD9052]">Air & Harbour</span>. All rights reserved.
           </p>
         </div>
       </div>

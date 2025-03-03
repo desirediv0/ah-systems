@@ -11,7 +11,7 @@ const OurServices = () => {
       title: "Ocean Freight",
       icon: <Ship size={40} />,
       image: "/card/ocean-freight.jpg",
-      description: "At  Air Harbour Group, we provide comprehensive ocean freight solutions for your international shipping needs.",
+      description: "At  Air & Harbour Group, we provide comprehensive ocean freight solutions for your international shipping needs.",
       link: "/services#ocean-freight"
     },
     {

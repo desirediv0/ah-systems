@@ -46,7 +46,7 @@ const WhyGlobal = () => {
     <div className="py-16 px-4 bg-white">
       <div className="max-w-7xl mx-auto">
         <SectionTitle
-          title="Why  Air Harbour"
+          title="Why  Air & Harbour"
           description="Discover the advantages that set us apart"
         />
 

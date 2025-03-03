@@ -15,8 +15,8 @@ const geistMono = localFont({
 });
 
 export const metadata = {
-  title: "Air Harbour",
-  description: "Air Harbour is a logistics company",
+  title: "Air & Harbour",
+  description: "Air & Harbour is a logistics company",
 };
 
 export default function RootLayout({ children }) {

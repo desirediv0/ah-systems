@@ -123,7 +123,7 @@ const Header = () => {
               <div className="p-6 space-y-4">
                 <h3 className="text-lg font-semibold text-[#AD9052] flex items-center gap-2">
                   <MapPin size={20} />
-                  Air Harbour
+                  Air & Harbour
                 </h3>
                 <p className="text-gray-600 pl-7">
                   Prashant Complex, 2nd Floor,<br />
@@ -136,11 +136,11 @@ const Header = () => {
                     +91 99580 33614
                   </p>
                   <a
-                    href="mailto:info@ahsystemss.com"
+                    href="mailto:info@airharbours.com"
                     className="text-[#AD9052] hover:underline flex items-center gap-2"
                   >
                     <Mail size={16} />
-                    info@ahsystemss.com
+                    info@airharbours.com
                   </a>
 
                 </div>
@@ -219,7 +219,7 @@ const Header = () => {
                   <div className="mt-4 space-y-4">
                     <h3 className="text-lg font-semibold text-[#AD9052] flex items-center gap-2">
                       <MapPin size={20} />
-                      Air Harbour
+                      Air & Harbour
                     </h3>
                     <p className="text-gray-600 pl-7">
                       Prashant Complex, 2nd Floor,<br />
@@ -232,11 +232,11 @@ const Header = () => {
                         +91 99580 33614
                       </p>
                       <a
-                        href="mailto:info@ahsystemss.com"
+                        href="mailto:info@airharbours.com"
                         className="text-[#AD9052] hover:underline flex items-center gap-2"
                       >
                         <Mail size={16} />
-                        info@ahsystemss.com
+                        info@airharbours.com
                       </a>
 
                     </div>
